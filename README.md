@@ -2,18 +2,18 @@
 Some useful regex for validation data will be stored here.
 Could use some help to fill this list.
 
-Name validation:
+##Name validation:
 
-[A-Z][a-z]+
+###[A-Z][a-z]+
 
 Alexander = pass
 
 alexander = fail 
 
 
-Username Validation:
+##Username Validation:
 
-([a-zA-Z])[a-zA-Z_-]*[\w_-]*[\S]$|^([a-zA-Z])[0-9_-]*[\S]$|^[a-zA-Z]*[\S]
+###([a-zA-Z])[a-zA-Z_-]*[\w_-]*[\S]$|^([a-zA-Z])[0-9_-]*[\S]$|^[a-zA-Z]*[\S]
 
 alexander =pass
 
